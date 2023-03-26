@@ -8,7 +8,7 @@ export default function TypeMe() {
   }
 
   return (
-    <div className="form-container">
+    <div>
       <input type="text" onBlur={handleFocus} />
       {isFocus && <p style={{color:'red'}}>Please type in here</p>}
     </div>

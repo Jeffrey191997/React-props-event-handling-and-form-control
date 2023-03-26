@@ -1,6 +1,7 @@
 import Card from "./components/Card";
 import List from "./components/List";
 import TypeMe from "./components/TypeMe";
+import MyForm from "./components/MyForm";
 
 function App() {
   const user = {
@@ -12,7 +13,8 @@ function App() {
     <div className="App">
       <Card user={user} />
       <List />
-      <TypeMe  />
+      <TypeMe />
+      <MyForm />
     </div>
   );
 }
