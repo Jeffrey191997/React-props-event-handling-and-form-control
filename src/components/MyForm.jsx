@@ -50,7 +50,7 @@ export default function MyForm() {
           <input type="password" required/>
         </label><br />
         <button onSubmit={(e) => {
-          // alert(e)
+          alert(e)
         }}>Submit</button>
       </form>
     </div>
